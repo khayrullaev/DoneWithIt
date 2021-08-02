@@ -1,10 +1,9 @@
-import React from "react";
-import { StyleSheet } from "react-native";
-
-import LoginScreen from "./screens/LoginScreen";
+import React, { useEffect, useState } from "react";
+import { Button, Image, StyleSheet } from "react-native";
+import ListingEditScreen from "./screens/ListingEditScreen";
 
 export default function App() {
-  return <LoginScreen />;
+  return <ListingEditScreen />;
 }
 
 const styles = StyleSheet.create({
